@@ -1,0 +1,6 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://mongo:mongo1234@localhost:27017/customer?authSource=admin
+server:
+  port: 8090

@@ -1,0 +1,10 @@
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: "http://localhost:9090/realms/ecom-ms"
+  application:
+    name: gateway-service
+  config:
+    import: optional:configserver:http://localhost:8888
