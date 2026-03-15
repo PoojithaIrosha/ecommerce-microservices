@@ -1,8 +1,7 @@
 # E-commerce Microservices Project
 
-This repository contains a comprehensive e-commerce microservices architecture, designed to handle the full range of operations required in an e-commerce system. The project is developed using various microservices for customers, products, orders, notifications, and payments.
-
-Each service is independent and communicates via asynchronous messaging through Kafka, allowing the system to be scalable, resilient, and loosely coupled. The system includes service discovery, centralized configuration, and monitoring tools to ensure smooth operation in a cloud-native environment.
+A distributed e-commerce backend built with Spring Boot microservices demonstrating secure authentication, service communication, distributed tracing, 
+and containerized deployment.
 
 ## Microservices Overview
 
